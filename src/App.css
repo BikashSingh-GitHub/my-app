@@ -259,6 +259,11 @@ align-items: right;
   position: relative;
   left:5em;
 }
+.align2{
+  position: relative;
+ 
+}
+
 .findagent{
   
     position: relative;
@@ -273,5 +278,14 @@ align-items: right;
     height: 3em;
     border-radius: 4px;
     border: none;
-  
+
 }
+.right-image{
+  position: relative;
+  bottom: 2em;
+  margin-left: 25em;
+  width:30em;
+  height: 30em;
+  display: block;
+  border-radius:25px;
+  opacity: 0.9;}
