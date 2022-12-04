@@ -51,6 +51,9 @@ align-items: right;
   height:3.9em;
   border-radius: 4px;
 }
+.searchagents:hover {
+  opacity: 0.7;
+}
 .text1{
   text-align: center;
   justify-content: center;
@@ -173,6 +176,9 @@ align-items: right;
     border-radius: 4px;
 
 }
+.contactagents:hover {
+  opacity: 0.7;
+}
 .starrating{
   display: block;
  
@@ -279,6 +285,9 @@ align-items: right;
     border-radius: 4px;
     border: none;
 
+}
+.findagent:hover {
+  opacity: 0.7;
 }
 .right-image{
   position: relative;
