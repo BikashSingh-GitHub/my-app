@@ -1,38 +1,277 @@
-.App {
-  text-align: center;
+.background1{
+  background-image: url("https://thumbs.dreamstime.com/b/coworkers-team-work-group-young-business-people-trendy-casual-wear-working-together-creative-office-wide-137484515.jpg");
+  background-color: #cccccc;
+  height:36em;
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-size: contain;
+background-size: 100% 100%;
+ 
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.heading1{
   color: white;
+  font-size: 38px;
+  font-weight: 700;
+  font-family: "roboto", sans-serif;
+  display: block;
+  text-align: center;
+  position: relative;
+  top:6em;
+}
+.searchbar{
+  position: relative;
+  top:15em;
+  font-size: 20px;
+  display: block;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(255, 255, 255);
+  width:45em;
+  height: 4em;
+  border-radius: 4px;
+  border: none;
+  
+}
+.searchagents{
+  border: none;
+  position:relative;
+  top:15.2em;
+  font-size: 15px;
+  font-family: "roboto", sans-serif;
+  background-color: rgb(55, 117, 233);
+  width:8em;
+  font-weight: bold;
+  color: white;
+  display: block;
+align-items: right;
+  width:9.8em;
+  margin-left: auto;
+  margin-right: 21em;
+  height:3.9em;
+  border-radius: 4px;
+}
+.text1{
+  text-align: center;
+  justify-content: center;
+  color: rgb(253, 253, 253);
+  font-size: 20px;
+  position: relative;
+  top:12.8em;
+}
+.heading2{
+
+  color: rgb(0, 0, 0);
+  font-size: 38px;
+  font-weight: 700;
+  margin-left:4em;
+  font-family: "roboto", sans-serif;
+  display: block;
+  text-align: left;
+  position: relative;
+  top:2em;
 }
 
-.App-link {
-  color: #61dafb;
+.imagecircle{
+  display: inline-flex;
+  position: relative;
+  width:6em;
+  border:none;
+  border-radius:50px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.caption1{
+  position: relative;
+  top:4.2em;
+  margin-left: 7.1em;
+  color: rgb(83, 83, 83);
+  font-family: "roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
   }
-  to {
-    transform: rotate(360deg);
+  
+.rowposters{ 
+  display: flex-start;
+
+  position: relative;
+  top:1em;
+  flex-wrap: wrap;
+  padding: 2px;
+  padding-left: 0px;
+  
+
+}
+.agentname{
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "roboto", sans-serif;
+  position: relative;
+  top:2em;
+  left:4.5em;
+}
+.agentsummary{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "roboto", sans-serif;
+  position: relative;
+  bottom: 5em;
+  left:7em;
+}
+.box1{
+  position: relative;
+  top:-2em;
+  display: inline-block;
+  border-width: 5px;
+  width:25em;
+
+  margin-left: 9.5em;
+}
+.box2{
+  display: inline-block;
+  position: relative;
+  top:-2em;
+  border-width: 5px;
+  width:25em;
+  
+  margin-left: 9.5em;
+}
+.box3{display: inline-block;
+  position: relative;
+  top:-10em;
+  border-width: 5px;
+  width:25em;
+ 
+  margin-left: 9.5em;
+}
+.box4{
+  display: inline-block;
+  position: relative;
+  top:-10em;
+  width:25em;
+  margin-left: 9.5em;
+  margin-top: -5em;
+}
+.contactagents{
+  
+    border: none;
+    position: relative;
+    left:7em;
+    bottom: 6em;
+    font-size: 15px;
+    font-family: "roboto", sans-serif;
+    background-color: rgb(55, 117, 233);
+    width:8em;
+    font-weight: bold;
+    color: white;
+    display: block;
+ 
+    width:8em;
+    margin-left: auto;
+    
+    height:2.2em;
+    border-radius: 4px;
+
+}
+.starrating{
+  display: block;
+ 
+  position: relative;
+  left:22em;
+  top:9.8em;
+  width:8em;
+  
+}
+.starrating1{
+  display: block;
+ 
+  position: relative;
+  left:30.5em;
+  top:6em;
+  width:8em;
+  
+}
+
+
+.left-image{
+  position: relative;
+  bottom: 2em;
+  margin-left: 8em;
+  width:30em;
+  height: 30em;
+  display: block;
+  border-radius:25px;
+  opacity: 0.9;
+}
+.texted1{
+  font-size: 22px;
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+  display: block;
+  left:-0.5em;
+    bottom: 23em;
+    color: rgb(62, 90, 214);
+}
+    
+
+.text2{
+  font-size: 35px;
+    font-family: "roboto", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    left:2em;
+    bottom: 14em;
+    display: block;
+}
+   
+
+.text3{
+  font-size: 24px;
+ width:30em;
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  text-align: left;
+  position: relative;
+  left:25.5em;
+  bottom: 19em;
+  display: inline-block;
   }
+
+.texted4{
+  font-size: 20px;
+    font-family: "roboto", sans-serif;
+    font-weight: 500;
+    text-align: left;
+    left:29.5em;
+    bottom: 22em;
+    position: relative;
+   display: block;
+}
+.alignnewed{
+  position: relative;
+  bottom: 18em;
+  
+}
+.align1{
+  position: relative;
+  left:5em;
+}
+.findagent{
+  
+    position: relative;
+   left:1em;
+    font-size: 20px;
+    display: block;
+    align-content: center;
+   color: white;;
+    margin-right: auto;
+    background-color: rgb(55, 117, 233);
+    width:8em;
+    height: 3em;
+    border-radius: 4px;
+    border: none;
+  
 }
